@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jogo de Quebra-Cabeça</title>
+    <style>
+        #puzzle-container {
+            width: 300px;
+            height: 300px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 5px;
+        }
+
+        .puzzle-piece {
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Jogo de Quebra-Cabeça</h1>
+    <p>Mova as peças para reorganizá-las em ordem.</p>
+
+    <div id="puzzle-container"></div>
+
+    <script>
+        const puzzleContainer = document.getElementById("puzzle-container");
+        const pieces = [];
+
+        function createPuzzle() {
+            for (let i = 0; i < 8; i++) {
+                const piece = document.createElement("div");
+                piece.className = "puzzle-piece";
+                piece.textContent = i + 1;
+               

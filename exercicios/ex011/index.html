@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidas em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>
+        tente abrir esse site em varios dispositivos ou simplismente aumente ou diminua o tamanho de seu navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/ft1.png" type="image/png"><!--foto pequena-->
+        <source media="(max-width: 1050px)" srcset="img/ft2.png" type="image/png"><!--foto media-->
+        
+        <img src="img/ft3.png" alt="imagen flexivel"><!--foto grande, sempre seguir essa forma hierarquica-->
+    </picture>
+    <h1>REprodução de audio</h1>
+    <p>vamos reproduzir audio em html</p>
+    <audio src="midia/ben.mp3" controls autoplay> 
+    </audio><!--formatos de audio sao o mp3, wav e o ogg-->
+    <p>so pra nao ficar abrindo essa porra <a href="audio 2 .html">aqui</a> denovo</p>
+   
+</body>
+</html>

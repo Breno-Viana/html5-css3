@@ -1,0 +1,29 @@
+@charset "UTF-8"
+@import  url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-image: linear-gradient(to top, white, red );
+    background-attachment: fixed;
+}
+main{
+    background-color: white;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+   padding:25px;
+
+   
+   
+}
+h1,h2{
+    font-family: 'Edu TAS Beginner', cursive;
+    text-align: center;
+    font-weight: 400;
+}
+p{
+    font-family: 'Monofett', monospace;
+    text-align: justify;
+}
