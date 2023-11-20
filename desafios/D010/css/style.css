@@ -81,7 +81,7 @@ nav>a{
      text-decoration: none;
      font-weight: bold;
      border-radius: 5px;
-     transition-duration: 0.7s;
+     transition-duration: 0.3s;
 
 
 
@@ -90,7 +90,6 @@ nav>a{
 nav>a:hover{ 
      background-color: var(--cor02);
      color: var(--cor05);
-     text-decoration: underline;
 
 
 }
