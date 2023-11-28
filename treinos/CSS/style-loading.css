@@ -1,8 +1,7 @@
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
     height: 100vh;
+
  }
 #loader{
     width: 100px;
@@ -13,7 +12,9 @@ body{
     border-top-color: transparent;
     animation: loading 0.5s linear infinite ;
     color: rgb(8, 0, 255);
-    
+    position: absolute;
+    top:50%;
+    left:50%;
 }
 @keyframes
 loading{
