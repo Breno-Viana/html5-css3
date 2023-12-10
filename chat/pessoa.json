@@ -1,0 +1,35 @@
+const readline = require('readline');
+const fs = require('fs');
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
+
+// Função para inserir dados de uma pessoa
+function inserirDadosPessoa() {
+  rl.question('Digite o nome: ', (nome) => {
+    rl.question('Digite a idade: ', (idade) => {
+      rl.question('Digite a profissão: ', (profissao) => {
+        // Criar objeto com os dados inseridos
+        const pessoa = {
+          nome: nome,
+          idade: idade,
+          profissao: profissao
+        };
+
+        // Converter o objeto para JSON
+        const pessoaJSON = JSON.stringify(pessoa, null, 2);
+
+        // Escrever os dados no arquivo pessoa.json
+        fs.writeFileSync('pessoa.json', pessoaJSON);
+
+        console.log('Dados inseridos com sucesso!');
+        rl.close();
+      });
+    });
+  });
+}
+
+// Chamar a função para inserir dados de uma pessoa
+inserirDadosPessoa();
