@@ -1,20 +1,22 @@
-@charset "UTF-8"
-*{
+  @charset "UTF-8";
+
+  *{
     margin: 0px;
     padding: 0px;
-}
-::-webkit-scrollbar{
-    width: 0px;
+  }
+
+  ::-webkit-scrollbar{
     height: 0px;
-}
-body{
-    position:relative;
-}
-img{
+    width: 0px;
+  }
+  body{
+    position: relative;
+  }
+ img{
     width: 100vw;
     background-size: cover;
     position: absolute;
-    left: -10px;
+    left: -3px;
     top:-10px;
 }
 a{
@@ -26,9 +28,12 @@ a{
     text-decoration:none;
     text-align: center;
     position: absolute;
-    left:-10px;
-    top: 1320px;
+    left:-3px;
+    top: 967px;
 }
 a:hover{
     background-color: red;
+    position:absolute;
+    left: 5px;
+    box-shadow: 10px 10px 10px rgb(0, 251, 255);
 }
