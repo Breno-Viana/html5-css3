@@ -1,21 +1,23 @@
 @charset "UTF-8";
 *{
     margin: 0px;
-    padding: 0px;
+    padding: px;
 }
 ::-webkit-scrollbar{
-    width: 0px;
     height: 0px;
+    width: 0px;
 }
+
+
 body{
-    position:relative;
+    position: absolute;
 }
 img{
     width: 100vw;
     background-size: cover;
-    position: absolute;
+    position: relative;
     left: -3px;
-    top:-10px;
+    top: -10px;
 }
 a{
     width: 269px;
@@ -27,13 +29,10 @@ a{
     text-align: center;
     position: absolute;
     left: -2px;
-    top:1320px;
-    color: white;
-}
+    top:2254px;
+    color: white;}
+
 a:hover{
     background-color: red;
-    position:absolute;
-    left: 5px;
-    box-shadow: 10px 10px 10px rgb(0, 251, 255);
+    left: 3px;
 }
-

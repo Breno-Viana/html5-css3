@@ -30,6 +30,7 @@ a{
     position: absolute;
     left:-3px;
     top: 967px;
+    color: white;
 }
 a:hover{
     background-color: red;
