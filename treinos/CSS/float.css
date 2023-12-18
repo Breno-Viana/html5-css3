@@ -2,11 +2,27 @@
 
 body{
     background-color: black;
+    position:relative;
 }
 
 
-img{
+div{
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+}
+
+img{
+    animation: float 1s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10px);
+    }
 }
