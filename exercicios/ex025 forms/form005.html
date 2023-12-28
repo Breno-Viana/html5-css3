@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios em Html</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="">
+        <fieldset>
+            <legend>Sex</legend>
+            <p>
+                <input type="radio" name="sex" id="imasc">
+                <label for="imasc">Masculino</label> <br>
+                <input type="radio" name="sex" id="ifem">
+                <label for="ifem">Feminino</label>
+                <!--o id t em q ser diferente, mas o name tem que ser igual quando os botoes de radio estao no mesmo fieldset ou q seja para que funcione de melhor maneira-->
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Olimpicos</legend>
+            <p>
+                <input type="checkbox" name="baquete" id="ibasq">
+                <label for="ibasq">Basquete</label> <br>
+
+                <input type="checkbox" name="futebol" id="ifut">
+                <label for="ifut">Futebol</label> <br>
+
+                <input type="checkbox" name="natacao" id="inat">
+                <label for="inat">Natação </label><br>
+
+                <input type="checkbox" name="Tenis" id="itenis"> 
+                <label for="itenis">Tenis</label> <br>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>Exemplo de formulario</h1>
+   <form action="">
+    <p>
+        <label for="inum">Numero:</label>
+        <input type="range" id="inum" name="numero" value="5" min="0" max="10" oninput="ival.innerHTML = Number(inum.value)">
+        <output id="ival">5</output>
+    </p>
+    <p>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </p>
+   </form>
+</body>
+</html>

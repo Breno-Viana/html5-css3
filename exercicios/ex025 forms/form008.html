@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="">
+
+        <p>
+            <label for="in1">Numero 1:</label>
+            <input type="number" name="numero" id="in1" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>
+        <p>
+            
+        <label for="in2">Numero 2:</label>
+        <input type="number" name="numero" id="in2" required oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
+        </p>  
+        <p>
+            <label for="isoma">Soma:</label>
+            <output id="isoma" name="soma">0</output>
+        </p>
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
