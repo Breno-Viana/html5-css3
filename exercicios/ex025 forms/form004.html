@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/exercicios/ex025 forms/css/style.css">
+</head>
+<body>
+    
+        <form action="" autocomplete="on">
+            <div class="dados">
+                <fieldset>
+                    <legend>Dados pessoais</legend>
+                    <div class="log">
+                        <label for="inome" id="nomelabel">Nome</label>
+                        <input type="text" id="iname" nome="nome" placeholder="Nome">
+                    </div>
+                   <div class="log">
+                           <label for="itel" id="tellabel">Telefone:</label>
+                           <input type="tel" name="tel" id="itel" required autocomplete="tel"
+                           pattern="\(\d{2}\)\d{4,5}-\d{4}" placeholder="(xx) xxxxx-xxxx"> <!--RegEx, para dar parametros au inserir telefone.-->
+                   </div>
+                   <div class="log">
+                           <label for="iconta" id=emaillabel>Email:</label>
+                           <input type="email" name="email" id="iconta" requirea autocomplete="email" placeholder="Insira o email">
+                   </div>
+                   <div>
+                            <input type="submit" value="enviar">
+                            <input type="reset" value="limpar">
+                   </div>
+                </fieldset>
+            </div>
+        </form>
+    
+</body>
+</html>
