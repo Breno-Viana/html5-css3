@@ -2,5 +2,8 @@
 
 
 body{
-    background-color: yellow;
+    background:url(../images/cev-landscape.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
 }

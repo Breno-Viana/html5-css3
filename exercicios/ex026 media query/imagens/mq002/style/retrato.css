@@ -2,5 +2,8 @@
 /*aparelho em pe (portrait)*/
 
 body{
-    background-color:red;
+    background:url(../images/cev-portrait.jpg);
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: bottom center;
 }
