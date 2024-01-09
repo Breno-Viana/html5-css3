@@ -33,7 +33,7 @@ body{
      background-color: var(--cor01);
      font-family: var(--fonte-padrao);
 }
-a.externo::before{
+.externo::before{
      content: '\1F517';
 }
 
