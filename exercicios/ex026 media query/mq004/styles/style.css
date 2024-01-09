@@ -15,8 +15,10 @@ html,body{
 }
 
 body{
-    background:black url(../images/back-phone.jpg) no-repeat;
-    background-size:contain;
+   background-color: black;
+   background: url(../images/back-phone.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 main{
