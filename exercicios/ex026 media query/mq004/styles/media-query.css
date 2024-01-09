@@ -16,7 +16,7 @@ grandes telas: acima de 1200 px
     
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px){ /*TABLET*/
+@media screen and (min-width: 992px) and (max-width: 1200px){ /*TABLET*/
     body{
         background-image:url(../images/back-tablet.jpg);
 
@@ -31,7 +31,7 @@ grandes telas: acima de 1200 px
 }
 
 
-@media screen and (min-width: 992px) and (max-width: 1200px) { /*DESKTOP*/
+@media screen and (min-width: 1200px) and (max-width: 1500px) { /*DESKTOP*/
     body{
         background-image:url(../images/back-pc.jpg);
     }
@@ -46,7 +46,7 @@ grandes telas: acima de 1200 px
 }
 
 
-@media screen and (min-width: 1200px) { /*GRANDES TELAS*/
+@media screen and (min-width: 1500px) { /*GRANDES TELAS*/
     body{
         background-image: url(../images/back-tv.jpg);
 
