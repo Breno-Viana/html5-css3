@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/*
+Cores que tentarei usar:
+
+1 - preto
+2 - branco 
+3 - f3711d
+4 - 001322
+5 - ffc241
+6 - 002430
+7 - 172935
+*/
+
+:root{
+    --cor1:#f3711d; 
+    --cor2:#ffc241;
+    --cor3:#001322;
+    --cor4:#002430;
+    --cor5:#172935;
+}
+
+
+
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin:0px ;
+    box-sizing: border-box;
+}
+
+body,html{
+    background-image:linear-gradient(to top ,var(--cor2,), var(--cor1));
+    background-attachment:fixed;
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+#login{
+    background-color:var(--cor3);
+    border-radius: 20px;
+    color: white;
+    height: 500px;
+    width: 250px; 
+    overflow: hidden;  
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.543); 
+}
+
+#login>#imagen{
+    background-image:url(../images/pexels-dinnow-9444476\ \(1\).jpg);
+    height: 200px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+#login>#form{
+    padding: 10px;
+}
