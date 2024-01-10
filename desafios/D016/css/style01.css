@@ -30,7 +30,7 @@ Cores que tentarei usar:
 }
 
 body,html{
-    background-image:linear-gradient(to top ,var(--cor2,), var(--cor1));
+    background-image: linear-gradient(to top, var(--cor1), var(--cor3), var(--cor5) );
     background-attachment:fixed;
     height: 100vh;
     width: 100vw;
