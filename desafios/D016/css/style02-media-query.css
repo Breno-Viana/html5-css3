@@ -2,7 +2,7 @@
 
 @media screen and (min-width: 768px) and (max-width:992px) {
     #login{
-        width:80vw;
+        width:90vw;
     }
     #login>#imagen{
         float: left;
@@ -12,7 +12,7 @@
 
     #login>#form{
         float: right;
-        width: 70vw;
+        
     }
      
 }

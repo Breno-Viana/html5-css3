@@ -36,16 +36,14 @@ body,html{
     width: 100vw;
 }
 main{
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     width: 100vw;
     
 }
 #login{
-    position: relative;
-    left: 50%;
-    top:50%;
-    transform: translate(-50%, -50%);
     background-color:var(--cor3);
     border-radius: 20px;
     color: white;
@@ -67,4 +65,7 @@ main{
 #login>#form{
     padding: 10px;
     display: block;
+}
+#form{
+    
 }
