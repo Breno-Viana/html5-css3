@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    #login{
+        width:80vw;
+    }
+    #login>#imagen{
+        float: left;
+        width:30vw;
+        height: 100vh;
+    }
+
+    #login>#form{
+        float: right;
+        width: 70vw;
+    }
+     
+}
+
+@media screen and (min-width:992px)  {
+    #login{
+        width:990px;
+    }
+
+    #login>#imagen{
+        float: left;
+        width: 50%;
+        height: 100vh;
+    }
+    #login>#form{
+        float: right;
+        width: 50%;
+       
+    }
+}
