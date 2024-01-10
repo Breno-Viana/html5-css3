@@ -1,8 +1,23 @@
 @charset "UTF-8";
 
+:root{
+    --cor1:#f3711d; 
+    --cor2:#ffc241;
+    --cor3:#001322;
+    --cor4:#002430;
+    --cor5:#172935;
+}
+
 @media screen and (min-width: 768px) and (max-width:992px) {
+
+
+    body{
+        background-image: linear-gradient(to top, var(--cor1), var(--cor3), var(--cor5) );
+        background-attachment: fixed;
+    }
     #login{
         width:90vw;
+        position: relative;
     }
     #login>#imagen{
         float: left;
@@ -11,13 +26,21 @@
     }
 
     #login>#form{
-        float: right;
-        
+        width: 70vw;
+        position: relative;
+        left: 10px;
     }
+  
      
 }
 
 @media screen and (min-width:992px)  {
+
+    body{
+        background-image: linear-gradient(to top, var(--cor1), var(--cor3), var(--cor5) );
+        background-attachment: fixed;
+    } 
+    
     #login{
         width:990px;
     }
