@@ -28,7 +28,10 @@
     #login>#form{
         width: 70vw;
         position: relative;
-        left: 10px;
+        left: 100px;
+    }
+    #form{
+        width:591.2px;
     }
   
      
@@ -46,13 +49,20 @@
     }
 
     #login>#imagen{
-        float: left;
+        float: right;
         width: 50%;
         height: 100vh;
     }
     #login>#form{
-        float: right;
+        float: left;
         width: 50%;
        
     }
+    #form p{
+        font-size: 1.2em;
+    }
+    #form h1 {
+        font-size:2em;
+    }
+    
 }
