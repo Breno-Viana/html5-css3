@@ -52,10 +52,11 @@ main{
     color: white;
     height: 500px;
     width: 300px; 
-    overflow: hidden;  
+    overflow:hidden;  
     box-shadow:0px 0px 10px rgba(0, 0, 0, 0.543);
     
     transition: width .2s, height .2s;
+    animation: float 6s ease-in-out infinite;
 }
 
 #login>#imagen{
@@ -79,5 +80,87 @@ main{
 #form p{
     font-size: .8em;
 }
+form>.campo{
+    background-color: var(--cor1);
+    border: 1px solid var(--cor1);
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius:8px;
+    margin: 5px 0px;
+}
 
+.campo>label{
+    display: none;
+}
+.campo>i{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+div.campo > input {
+    background-color:var(--cor4);
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-10.7px);
+}
+
+.campo > input:focus-within{
+    background-color: white;
+    color: black;
+}
+ #entrar{
+    display: block;
+    font-size:1em;
+    width: 100%;
+    height: 40px;
+    background-color: var(--cor5);
+    color: var(--cor1);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom:5px;
+ }
+ #entrar:hover{
+    background-color: var(--cor2);
+    color:var(--cor5);
+ }
+
+ #botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color:var(--cor4);
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid var(--cor5);
+    color: var(--cor1);
+    padding-top: 5px;
+    cursor: pointer;
+ }
+
+ #botao>i{
+    font-size: .8em;
+ }
+  
+ #botao:hover{
+    background-color: var(--cor1);
+    color: var(--cor3);
+ }
+
+ @keyframes float{
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(5px);
+    }
+}
 

@@ -15,27 +15,26 @@
         background-image: linear-gradient(to top, var(--cor1), var(--cor3), var(--cor5) );
         background-attachment: fixed;
     }
-    #login{
-        width:90vw;
-        position: relative;
-    }
-    #login>#imagen{
-        float: left;
-        width:30vw;
-        height: 100vh;
+   
+    #login {
+        width: 80vw;
+        height: 280px;
     }
 
-    #login>#form{
-        width: 70vw;
-        position: relative;
-        left: 100px;
+    #login > #imagen {
+        float: left;
+        width: 30%;
+        height: 100%;
     }
-    #form{
-        width:591.2px;
+
+    #login >#form {
+        float: right;
+        width: 70%;
     }
-  
-     
 }
+
+    
+     
 
 @media screen and (min-width:992px)  {
 
@@ -44,25 +43,61 @@
         background-attachment: fixed;
     } 
     
-    #login{
-        width:990px;
+    
+    #login {
+        width: 950px;
+        height: 350px;
     }
 
-    #login>#imagen{
+    #login > #imagen {
         float: right;
         width: 50%;
-        height: 100vh;
+        height: 100%;
     }
-    #login>#form{
+
+    #login > #form {
         float: left;
         width: 50%;
-       
     }
-    #form p{
-        font-size: 1.2em;
+
+   #form> h1 {
+        font-size: 2em;
     }
-    #form h1 {
-        font-size:2em;
+
+    #form > p {
+        font-size: 1em;
+        margin: 20px 0px;
     }
     
 }
+
+/*@media screen and (min-width: 992px) { /* CONFIGURAÇÕES PARA DESKTOP 
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    #login {
+        width: 950px;
+        height: 350px;
+    }
+
+    #login > #imagen {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    #login > #form {
+        float: left;
+        width: 50%;
+    }
+
+   #form> h1 {
+        font-size: 2em;
+    }
+
+    #form > p {
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+}*/
