@@ -19,6 +19,10 @@ Cores que tentarei usar:
     --cor4:#002430;
     --cor5:#172935;
 }
+@font-face {
+    font-family: hand;
+    src: url(../fonts/DK-Hand.ttf);
+}
 
 
 
@@ -42,6 +46,10 @@ main{
     height: 100vh;
     width: 100vw;
     
+}
+
+h1{
+    font-family: ;
 }
 #login{
     background-color:var(--cor3);
