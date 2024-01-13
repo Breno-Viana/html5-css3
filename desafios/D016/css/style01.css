@@ -109,11 +109,11 @@ div.campo > input {
     padding: 4px;
     transform: translateY(-10.7px);
 }
-
 .campo > input:focus-within{
-    background-color: white;
-    color: black;
+    background-color:var(--cor3);
+    color:white;
 }
+
  #entrar{
     display: block;
     font-size:1em;
