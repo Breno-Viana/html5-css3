@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Soma",
+            "request": "launch",
+            "mainClass": "Soma",
+            "projectName": "html-css_317511bc"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "html-css_317511bc"
+        },
+        {
+            "type": "java",
+            "name": "loops",
+            "request": "launch",
+            "mainClass": "loops",
+            "projectName": "html-css_317511bc"
+        },
+        {
+            "type": "java",
+            "name": "Calculador",
+            "request": "launch",
+            "mainClass": "Calculador",
+            "projectName": "html-css_317511bc"
+        },
+        {
+            "type": "java",
             "name": "Calculadora",
             "request": "launch",
             "mainClass": "Calculadora",
