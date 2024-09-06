@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="dk_hand">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/desafios/D016/fonts/dk_hand.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

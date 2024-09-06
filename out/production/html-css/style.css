@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+
+#calculator{
+    border: 2px solid black;
+    height: 220px;
+    width: 180px;
+    background-color: black;
+}
+input[type=text]{
+    margin: 6px 7px;
+    height: 20px;
+}
+.calc{
+    margin-top: 10px;
+}
+
+
+button{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 6px;
+    border: 1.3px solid white;
+}
+
+button:hover{
+    background-color: blue;
+    border: inset 2px solid grey;
+}
