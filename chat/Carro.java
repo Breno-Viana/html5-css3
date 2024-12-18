@@ -1,5 +1,5 @@
 // Definindo a classe Carro
-public class l {
+public class Carro {
   // Propriedades do carro
   String marca;
   String modelo;
@@ -30,7 +30,7 @@ public class l {
 }
 
 // Criando um objeto da classe Carro
-public class Main {
+class Main {
   public static void main(String[] args) {
       // Criando um objeto Carro chamado meuCarro
       Carro meuCarro = new Carro("Honda", "Civic", "Preto");
